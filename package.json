@@ -1,0 +1,53 @@
+{
+  "name": "flashcard-cli",
+  "version": "1.0.0",
+  "description": "A TUI-based flashcard application for studying directly in your terminal. This application uses JSON files for deck management and incorporates a simple spaced repetition algorithm to optimize your study sessions.",
+  "main": "dist/index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --import tsx/esm src/index.ts",
+    "start": "node --import tsx/esm src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "flashcards",
+    "cli",
+    "tui",
+    "spaced-repetition",
+    "study"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "flashcard-cli": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "ink": "^6.0.1",
+    "ink-select-input": "^6.2.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.1.0",
+    "uuid": "^11.1.0"
+  }
+}

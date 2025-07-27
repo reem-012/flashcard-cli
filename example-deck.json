@@ -1,0 +1,56 @@
+{
+  "name": "Example Flashcard Deck",
+  "description": "A sample deck to demonstrate the flashcard CLI application",
+  "cards": [
+    {
+      "id": "1",
+      "front": "What is the capital of France?",
+      "back": "Paris",
+      "interval": 1,
+      "lastReviewed": "2025-07-19T08:26:15.090Z",
+      "nextReview": "2025-07-20T08:26:15.090Z"
+    },
+    {
+      "id": "2",
+      "front": "What is 2 + 2?",
+      "back": "4",
+      "interval": 1,
+      "lastReviewed": "2025-07-19T08:26:18.237Z",
+      "nextReview": "2025-07-20T08:26:18.237Z"
+    },
+    {
+      "id": "3",
+      "front": "What programming language is this project written in?",
+      "back": "TypeScript",
+      "interval": 1,
+      "lastReviewed": "2025-07-19T08:26:21.482Z",
+      "nextReview": "2025-07-20T08:26:21.482Z"
+    },
+    {
+      "id": "4",
+      "front": "What UI framework is used for the terminal interface?",
+      "back": "Ink (React for CLIs)",
+      "interval": 1,
+      "lastReviewed": "2025-07-19T08:26:25.230Z",
+      "nextReview": "2025-07-20T08:26:25.230Z"
+    },
+    {
+      "id": "5",
+      "front": "What spaced repetition algorithm is implemented?",
+      "back": "A variant of SM-2 with multipliers: Easy (2.5x), Medium (1.5x), Hard (reset to 1 day)",
+      "interval": 0,
+      "lastReviewed": null,
+      "nextReview": null
+    },
+    {
+      "id": "af24858e-a94c-4a47-9ff6-1a59420bc267",
+      "front": "test",
+      "back": "test",
+      "interval": 0,
+      "lastReviewed": null,
+      "nextReview": null
+    }
+  ],
+  "created": "2024-01-15T00:00:00.000Z",
+  "modified": "2025-07-19T08:26:32.881Z"
+}
